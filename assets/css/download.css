@@ -1,0 +1,90 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, body, * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  padding: 5rem;
+  background: #f8f8f8;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  color: #454cad;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #5f6982;
+}
+
+.img-display {
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 780px) {
+  .img-display {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .img-display {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .img-display {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 330px) {
+  .img-display {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+.img-display .btn {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 1rem 0.5rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.2rem;
+  outline: none;
+  padding: 0 1rem;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #454cad;
+  border-color: #454cad;
+  cursor: pointer;
+}
+/*# sourceMappingURL=download.css.map */

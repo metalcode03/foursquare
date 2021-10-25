@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>File Upload & Image Preview</h2>
+    <p class="lead">Blend Picture <b>With Program</b></p>
+    <div class="img-display">
+        <img class="img-fluid" src="img\2.jpg" alt="">
+    </div>
+    <form id="file-upload-form" class="uploader">
+        <input type="file" name="fileUpload" id="id_fileUpload" accept="image/*">
+        <label for="id_fileUpload" id="file-drag">
+            <div id="start">
+                <i class="fa fa-download" aria-hidden="true"></i>
+                <div>Select a file or drag here</div>
+                <div id="notimage" class="hidden">Please select an image</div>
+                <span class="btn btn-primary">Select a Picture</span>
+            </div>
+            <div id="response" class="hidden">
+                <div id="messages"></div>
+                <!-- <progress class="progress" id="file-progress" value="0"><span>0</span>%</progress> -->
+                <button class="btn btn-primary">Blend</button>
+            </div>
+        </label>
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
