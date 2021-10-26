@@ -87,7 +87,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'storestacks',
+            'NAME': 'foursquare',
             'USER': 'metalcode',
             'PASSWORD': 'Daddy,44',
             'HOST': 'localhost',
