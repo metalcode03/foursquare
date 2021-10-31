@@ -26,8 +26,10 @@ SECRET_KEY = 'o*%!g6p2ncdpz79f^xl7%05u7_-p1$@1uve*882vn3-s0+&5+b'
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = False
-
-ALLOWED_HOSTS = ["foursquare.storestacks.com", "foursquare.ml"]
+if DEBUG:
+    ALLOWED_HOSTS = []
+else:
+    ALLOWED_HOSTS = ["foursquare.storestacks.com", "foursquare.ml"]
 
 
 # Application definition
